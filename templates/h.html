@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RespiraAi - Histórico</title>
+  <link rel="stylesheet" href="../static/css/styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="nav-bar">
+      <h1>RespiraAi</h1>
+      <div class="menu-links">
+        <a href="../index.html">Exercícios</a>
+        <a href="h.html">Histórico</a>
+        <a href="../index.html#estatisticas">Estatísticas</a>
+        <a id="logout-link-h" style="margin-left: 10px; display: none;">Sair</a>
+        <a id="login-link-h" href="login.html" style="margin-left: 10px;">Entrar</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="historico-main-content">
+    <h1>ÚLTIMAS PRÁTICAS</h1>
+
+    <div class="tabela-praticas-container">
+      <table class="tabela-praticas">
+        <thead>
+          <tr>
+            <th>DATA</th>
+            <th>EXERCÍCIOS</th>
+            <th>TEMPO</th>
+          </tr>
+        </thead>
+        <tbody id="historico-table-body">
+          <!-- Dados do histórico serão inseridos aqui via JavaScript -->
+        </tbody>
+      </table>
+    </div>
+  </main>
+  <script src="../static/js/main.js"></script>
+  <script src="../static/js/historico.js"></script>
+</body>
+</html>
+
