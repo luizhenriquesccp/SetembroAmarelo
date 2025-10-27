@@ -2,7 +2,7 @@
 
 ## Descrição
 
-RespiraAi é uma aplicação de exercícios de respiração e bem-estar totalmente implementada em **HTML, CSS e JavaScript**, sem depender de backend. Toda a lógica de navegação, cadastro, login e registro de práticas é feita diretamente no navegador, usando `localStorage` para armazenar os dados do usuário.
+RespiraAi é uma aplicação de exercícios de respiração e bem-estar totalmente implementada em **HTML, CSS e JavaScript**, fiz essa versão para testa como o site funciona, sem depender de backend. Toda a lógica de navegação, cadastro, login e registro de práticas é feita diretamente no navegador, usando `localStorage` para armazenar os dados do usuário.
 
 ## Funcionalidades
 
