@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RespiraAi</title>
-    <link
-      rel="stylesheet"
-      href="static/css/styles.css"
-    />
+    <link rel="stylesheet" href="static/css/styles.css" />
   </head>
   <body>
     <header>
@@ -17,8 +14,13 @@
           <a href="#card">Exercícios</a>
           <a href="templates/h.html">Histórico</a>
           <a href="#estatisticas">Estatísticas</a>
-          <a id="logout-link" style="margin-left: 10px; display: none;">Sair</a>
-          <a id="login-link" href="templates/login.html" style="margin-left: 10px;">Entrar</a>
+          <a id="logout-link" style="margin-left: 10px; display: none">Sair</a>
+          <a
+            id="login-link"
+            href="templates/login.html"
+            style="margin-left: 10px"
+            >Entrar</a
+          >
         </div>
       </nav>
     </header>
@@ -26,9 +28,18 @@
       <div class="hero">
         <h2>Bem-vindo ao RespiraAi!</h2>
         <p>
+          Está é uma versão frontend do sistema de exercícios de respiração,
+          desenvolvido para o setembro amarelo, mês de conscientização sobre a
+          saúde mental.
+        </p>
+        <br />
+        <a href="https://github.com/luizhenrique1998/SetembroAmarelo"></a>
+        <div type="button" class="act">REPOSITÓRIO DO PROJETO ORIGINAL</div>
+        <br />
+        <p>
           Aqui você encontra exercícios de respiração, histórico das suas
-          atividades e estatísticas do seu progresso, <span id="user-name-hero"></span>, tudo para melhorar seu
-          bem-estar.
+          atividades e estatísticas do seu progresso,
+          <span id="user-name-hero"></span>, tudo para melhorar seu bem-estar.
         </p>
         <ul>
           <li>Descubra técnicas de respiração para relaxamento e foco.</li>
@@ -52,9 +63,12 @@
       <section class="cards" id="estatisticas">
         <h4>Estatísticas da Semana</h4>
         <p>
-          <strong>Total de minutos:</strong> <span id="total-minutos">0</span><br />
-          <strong>Práticas realizadas:</strong> <span id="qtd-praticas">0</span><br />
-          <strong>Média por prática:</strong> <span id="media-pratica">0</span> min
+          <strong>Total de minutos:</strong> <span id="total-minutos">0</span
+          ><br />
+          <strong>Práticas realizadas:</strong> <span id="qtd-praticas">0</span
+          ><br />
+          <strong>Média por prática:</strong>
+          <span id="media-pratica">0</span> min
         </p>
       </section>
     </main>
@@ -71,4 +85,3 @@
     <script src="static/js/main.js"></script>
   </body>
 </html>
-
