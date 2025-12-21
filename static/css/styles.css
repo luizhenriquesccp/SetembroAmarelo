@@ -111,6 +111,9 @@ span {
   .nav-bar .menu-links a {
     font-size: 4vw;
   }
+  #card {
+    margin-top: 200px;
+  }
 
 }
 .historico-main-content {
